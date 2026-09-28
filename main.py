@@ -17,7 +17,7 @@ st.caption("KOBIS 일별 박스오피스 데이터를 바탕으로 시간의 흐
 # 1. 데이터 불러오기 및 전처리
 # ----------------------------------------------------
 # DATA_URL = "https://raw.githubusercontent.com/greatsong/modudata/main/data/kobis_daily.csv"
-DATA_URL = "https://drive.google.com/file/d/1VPLPxPpoH6sMcujDnyjhU4ZjV5DjG5jC/"
+DATA_URL = "https://raw.githubusercontent.com/it-teacher-go/data-share-/refs/heads/main/kobis_daily.csv/"
 
 @st.cache_data
 def load_data(url):
